@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Campus Book Exchange - Browse Books</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="books.html">Browse Books</a>
+        <a href="list-book.html">List a Book</a>
+    </nav>
+    <main>
+        <h2>Browse Available Books</h2>
+
+        
+         <div class="search-box">
+            <input type="text" id="book-search" placeholder="Enter book title to look up">
+            <button id="show-book-btn">Show Book</button>
+            <p id="search-confirmation-msg"></p>
+            <div id="display-search-result"></div>
+    </div>
+
+        <button id="modify-card-btn">Modify First Card Appearance</button>
+        <p id="request-status-msg"></p>
+
+        <section class="flex-container">
+            <div class="book-card" id="browse-1">
+                <h3>Organic Chemistry</h3>
+                <p>Author: Paula Yurkanis Bruice</p>
+                <p>Category: Chemistry</p>
+                <p>Condition: Good</p>
+                <button class="request-btn" id="req-1">Mark as Requested</button>
+            </div>
+            <div class="book-card">
+                <h3>Macroeconomics</h3>
+                <p>Author: N. Gregory Mankiw</p>
+                <p>Category: Economics</p>
+                <p>Condition: Like New</p>
+                <button class="request-btn" id="req-2">Mark as Requested</button>
+            </div>
+            <div class="book-card">
+                <h3>Clean Code</h3>
+                <p>Author: Robert C. Martin</p>
+                <p>Category: Computer Science</p>
+                <p>Condition: Acceptable</p>
+                <button class="request-btn" id="req-3">Mark as Requested</button>
+            </div>
+            <div class="book-card">
+                <h3>The Art of Electronics</h3>
+                <p>Author: Paul Horowitz</p>
+                <p>Category: Engineering</p>
+                <p>Condition: Good</p>
+               
+                <button class="request-btn" id="req-4">Mark as Requested</button>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

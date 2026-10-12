@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Campus Book Exchange - List a Book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="books.html">Browse Books</a>
+        <a href="list-book.html">List a Book</a>
+    </nav>
+    <main>
+        <div class="button-group">
+            <button id="toggle-form-btn">Show/Hide Form</button>
+            <button id="increase-font-btn">Change Heading Font Size</button>
+        </div>
+
+        <div id="form-wrapper">
+            <h2 id="form-title">List Your Book</h2>
+            <p id="form-feedback"></p>
+            
+            <form id="listing-form">
+                <label>Student Name</label>
+                <input type="text" id="student-name">
+
+                <label>Book Title</label>
+                <input type="text" id="book-title">
+
+                <label>Author</label>
+                <input type="text" id="book-author">
+
+                <label>Subject/Category</label>
+                <input type="text" id="book-subject">
+
+                <label>Book Condition</label>
+                <input type="text" id="book-condition">
+
+                <button type="button" id="submit-listing-btn">Submit Listing</button>
+            </form>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
